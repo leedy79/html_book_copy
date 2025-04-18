@@ -1,0 +1,32 @@
+[
+  {
+    "href": "sub.html",
+    "class": "icon",
+    "src": "img/search.webp",
+    "alt": "icon1"
+  },
+  {
+    "href": "sub.html",
+    "class": "icon",
+    "src": "img/heart.webp",
+    "alt": "icon2"
+  },
+  {
+    "href": "sub.html",
+    "class": "icon",
+    "src": "img/user.webp",
+    "alt": "icon3"
+  },
+  {
+    "href": "sub.html",
+    "class": "icon",
+    "src": "img/cart.webp",
+    "alt": "icon4"
+  },
+  {
+    "href": "sub.html",
+    "class": "icon",
+    "src": "img/headphone.webp",
+    "alt": "icon5"
+  }
+]
