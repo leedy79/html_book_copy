@@ -17,31 +17,365 @@
 
 <body>
     <header>
-        <div id="topBanner">
+        <!-- 상단 배너 -->
+        <div class="topBanner">
             <a href="sub.html"><img src="img/topBanner.jpg" alt="topBanner"></a>
         </div>
-        <nav></nav>
-    </header>
-
-    <div id="slider"></div>
-
-    <section id="delivery_store"></section>
-    <section id="coupon"></section>
-    <div id="sale_product"></div>
-    <div id="sale_product"></div>
-    <div class="notice_box">
-        <div class="notice">
-            <ul>
-                <li><a href="sub.html">공지사항</a></li>
-                <li class="divider">|</li>
-                <li><a href="sub.html">이마트 점포안내</a></li>
-                <li class="divider">|</li>
-                <li><a href="sub.html">트레이더스 점포안내</a></li>
-                <li class="divider">|</li>
-                <li><a href="sub.html">신세계포인트</a></li>
-            </ul>
+        <!-- 관련 사이트 & 회원 서비스 -->
+        <div class="relSite_memberService">
+            <div class="relSite_memberService_wrap">
+                <div class="menuLeft">
+                    <img src="img/shape_0.png" alt="img/shape0">
+                    <ul class="relSite">
+                        <li class="relSite_ele"><a href="sub.html"><img src="img/shape_1.png" alt="shape1"><span>교보문고</span></a></li>
+                        <li class="relSite_ele"><a href="sub.html"><img src="img/shape_2.png" alt="shape2"><span>eBook</span></a></li>
+                        <li class="relSite_ele"><a href="sub.html"><img src="img/shape_3.png" alt="shape3"><span>sam</span></a></li>
+                        <li class="relSite_ele"><a href="sub.html"><img src="img/shape_4.png" alt="shape4"><span>핫트랙스</span></a></li>
+                        <li class="relSite_ele"><a href="sub.html"><img src="img/shape_5.png" alt="shape5"><span class="history">스토리</span></a></li>
+                        <li><span class="brand_more">브랜드 더보기</span>
+                            <div class="more_sub">
+                                <ul>
+                                    <li><img src="img/more_pod.png" alt="more_pod"><span>바로출판</span></li>
+                                    <li><img src="img/more_readlog.png" alt="more_readlog"><span>리드로그</span></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menuRight">
+                    <ul class="memberService">
+                        <li><a href=""><span>회원가입</span></a></li>
+                        <li><a href=""><span>로그인</span></a></li>
+                        <li><a href=""><span class="member_benefit">회원혜택</span></a>
+                            <div class="member_benefit_sub">
+                                <ul>
+                                    <li><a href=""><p>교보북클럽</p></a></li>
+                                    <li><a href=""><p>등급 혜택</p></a></li>
+                                    <li><a href=""><p>신규회원 혜택</p></a></li>
+                                    <li><a href=""><p>Prestige Lounge</p></a></li>
+                                    <li><a href=""><p>제휴 혜택</p></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href=""><span>주문배송</span></a></li>
+                        <li><a href=""><span>매장안내</span></a></li>
+                        <li><a href=""><span>고객센터</span></a></li>
+                    </ul>                    
+                </div>
+            </div>
         </div>
-    </div>
+        <!-- 로고 & 검색 & 마이페이지 & 장바구니 : Sticky -->
+        <div class="header_sticky">
+            <a class="main_logo" href="#" >
+                <img src="/img/logo_book.svg" alt="main_logo">
+            </a>
+            <form id="search">
+                <div>
+                    <select class="search_select">
+                        <option value="total" selected="selected">통합검색</option>
+                        <option value="kyobo">교보문고</option>
+                        <option value="ebook">eBook</option>
+                        <option value="sam">sam</option>
+                        <option value="hot">핫트랙스</option>
+                    </select>
+                </div>
+                <div class="search_bar" >
+                    <input type="text">
+                    <img src="img/search.png" alt="search">
+                </div>
+            </form>            
+            <div class="mymenu">
+                <a class="header_cart" href="#">
+                    <img src="/img/cart.png" alt="cart">
+                </a>
+                <a class="header_mymenu" href="#">
+                    <img src="/img/my.png" alt="mymenu">
+                </a>            
+            </div>
+        </div>
+        <!-- navi -->
+        <nav id="navi">
+            <div><img src="img/nav_open.png" alt="nav_open"></div>
+            <div class="nav_inner">
+                <ul class="nav_left">
+                    <li><a class="nav_special" href="sub.html">책의날특집<span></span></a></li>
+                    <li><a class="nav_special" href="sub.html">한강산문집<span></span></a></li>
+                    <li><a href="sub.html">베스트</a></li>
+                    <li><a href="sub.html">신상품</a></li>
+                    <li><a href="sub.html">이벤트</a></li>
+                    <li><a href="sub.html">바로펀딩</a></li>
+                    <li><a href="sub.html">PICKS</a></li>
+                    <li><a href="sub.html">CASTing</a></li>
+                    <li><a href="sub.html">컬처라운지</a></li>
+                </ul>
+                <button class="nav_more"><img src="img/more.png" alt=""></button>
+                <ul class="nav_right">
+                    <li><a href="">오늘의 미션</a></li>
+                    <li><a href="">할인혜택</a></li>
+                    <li><a class="noti_new_hankang" href="sub.html">한강 신작 알림</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- main -->
+    <main>
+        <!-- section : slider  -->
+        <section id="sliders">
+            <div class="slider_left">
+                <div class="controller_left">
+                    <button class="pause_play"><img src="img/pause.svg" alt="pause_play"></button>
+                    <div class="ctl_box">
+                        <img src="img/arrow_left_w.svg" alt="btn">
+                        <span>1-34</span>
+                        <img src="img/arrow_right_w.svg" alt="btn">
+                        <span>전체보기</span>
+                    </div>
+                </div>
+                <a href=""><img src="img/banner_0.jpg" alt="banner"></a>
+            </div>
+            <div class="slider_right">
+                <a href="sub.html"><img src="img/banner_r.jpg" alt="banner">
+                <div class="slider_right_desc">
+                    <p>desc1</p>
+                    <span>desc2</span>
+                </div>
+                </a>
+                <div class="controller_right">
+                    <div class="ctl_box">
+                        <img src="img/arrow_left_g.svg" alt="btn">
+                        <span>1-34</span>
+                        <img src="img/arrow_right_g.svg" alt="btn">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section : shortcuts  -->
+        <section id="shortcuts">
+            <ul class="shortcuts_box">
+                    <li><a href="sub.html"><img src="img/sale_benefit.svg" alt=""><span>할인혜택</span></a></li>
+                    <li><a href="sub.html"><img src="img/today_price.svg" alt=""><span>오늘만특가</span></a></li>
+                    <li><a href="sub.html"><img src="img/discovery.svg" alt=""><span>디스커버</span></a></li>
+                    <li><a href="sub.html"><img src="img/music_video.svg" alt=""><span>음반·영상</span></a></li>
+                    <li><a href="sub.html"><img src="img/publishing.svg" alt=""><span>바로출판</span></a></li>
+                    <li><a href="sub.html"><img src="img/book_of_the_month.svg" alt=""><span>이달의 책</span></a></li>
+                    <li><a href="sub.html"><img src="img/handwriting.svg" alt=""><span>손글씨캠페인</span></a></li>
+                    <li><a href="sub.html"><img src="img/free_gift.svg" alt=""><span>사은품</span></a></li>
+                    <li><a href="sub.html"><img src="img/suggestion.svg" alt=""><span>추천</span></a></li>
+                    <li><a href="sub.html"><img src="img/app_benefit.svg" alt=""><span>APP혜택</span></a></li>
+            </ul>
+            <a href="sub.html"><img src="img/shortcut_banner.jpg" alt="shortcut_banner"></a>
+        </section>
+        <section id="selection_of_today">
+            <div class="top_tab">
+                <div class="tab_left">
+                    <h2>오늘의 선택</h2>
+                    <ul class="tap_left_nav">
+                        <li><a href=""><span>국내도서</span></a></li>
+                        <li><a href=""><span>외국도서</span></a></li>
+                        <li><a href=""><span class="ebook_today">eBook</span></a></li>
+                        <li><a href=""><span>sam</span></a></li>
+                        <li><a href=""><span>핫트랙스</span></a></li>
+                        <li><a href=""><span>교보only</span></a></li>
+                    </ul>
+                </div>
+                <div class="tab_more">
+                    <a href=""><span>더보기</span><img src="img/more.svg" alt="more"></a>
+                </div>
+            </div>
+            <div class="today_inner">
+                <div class="today_inner_left">
+                    <a href="sub.html"><img src="img/today_0.jpg" alt=""></a>
+                    <div class="today_inner_left_desc">
+                        <a class="title" href="sub.html"><p>시프트</p></a>
+                        <div>
+                            <p class="today_special">'조예은 월드'의 시작이자 강렬한 상상력의 끝</p>
+                            <p>고통을 옮기는 기묘한 힘을 가진 소년, 이 힘은 저주일까, 기적일까?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="today_inner_right">
+                    <a href="sub.html"><img src="img/today_1.jpg" alt="today_1"></a>
+                    <a href="sub.html"><img src="img/today_2.jpg" alt="today_2"></a>
+                    <a href="sub.html"><img src="img/today_3.jpg" alt="today_3"></a>
+                </div>
+            </div>
+            <button class="btn_left"><img src="img/arrow_left_g.svg" alt="arrow_left"></button>
+            <button class="btn_right"><img src="img/arrow_right_g.svg" alt="arrow_right"></button>
+        </section>
+        <section class="ad_2col_banner">
+            <a href="sub.html"><img src="img/ad_2col_banner0.png" alt="ad_banner0"></a>
+            <a href="sub.html"><img src="img/ad_2col_banner1.png" alt="ad_banner1"></a>
+        </section>
+        <section id="hankang">
+            <div class="top_tab">
+                <h2>한강 신작 산문집이 곧 출간돼요</h2>
+                <div class="tab_more">
+                    <a href=""><span>더보기</span><img src="img/more.svg" alt="more"></a>
+                </div>
+            </div>
+            <div class="hankang_inner">
+                <ul class="hankang_books">
+                    <li><a href="sub.html"><img src="img/today_1.jpg" alt="today_1"><span>title</span></a></li>
+                    <li><a href="sub.html"><img src="img/today_2.jpg" alt="today_2"><span>title</span></a></li>
+                    <li><a href="sub.html"><img src="img/today_3.jpg" alt="today_3"><span>title</span></a></li>
+                </ul>
+            </div>
+            <button class="btn_left"><img src="img/arrow_left_g.svg" alt="arrow_left"></button>
+            <button class="btn_right"><img src="img/arrow_right_g.svg" alt="arrow_right"></button>
+        </section>
+        <section id="suggestion">
+            <div class="top_tab">
+                <h2>출판사에서 자신있게 추천해요</h2>
+            </div>
+            <div class="suggestion_inner">
+                <ul class="suggestion_books">
+                    <li><a href="sub.html"><img src="img/today_1.jpg" alt="today_1"><span>title</span></a></li>
+                    <li><a href="sub.html"><img src="img/today_2.jpg" alt="today_2"><span>title</span></a></li>
+                    <li><a href="sub.html"><img src="img/today_3.jpg" alt="today_3"><span>title</span></a></li>
+                </ul>
+            </div>
+        </section>
+        <section id="md_suggestion">
+            <div class="top_tab">
+                <div class="tab_left">
+                    <h2>MD들이 신중하게 골랐어요</h2>
+                    <ul class="tap_left_nav">
+                        <li><a href=""><span>국내도서</span></a></li>
+                        <li><a href=""><span>외국도서</span></a></li>
+                        <li><a href=""><span>eBook</span></a></li>
+                        <li><a href=""><span>sam</span></a></li>
+                        <li><a href=""><span>핫트랙스</span></a></li>
+                        <li><a href=""><span class="md_kyobo_only">교보only</span></a></li>
+                    </ul>
+                </div>
+                <div class="tab_more">
+                    <a href=""><span>더보기</span><img src="img/more.svg" alt="more"></a>
+                </div>
+            </div>
+            <div class="md_suggestion_inner">
+                <ul class="md_suggestion_books">
+                    <li><a href="sub.html"><img src="img/today_1.jpg" alt="today_1"><span>title</span></a></li>
+                    <li><a href="sub.html"><img src="img/today_2.jpg" alt="today_2"><span>title</span></a></li>
+                    <li><a href="sub.html"><img src="img/today_3.jpg" alt="today_3"><span>title</span></a></li>
+                </ul>
+            </div>
+            <button class="btn_left"><img src="img/arrow_left_g.svg" alt="arrow_left"></button>
+            <button class="btn_right"><img src="img/arrow_right_g.svg" alt="arrow_right"></button>
+        </section>
+        <section class="ad_2col_banner">
+            <a href="sub.html"><img src="img/ad_2col_banner2.png" alt="ad_banner2"></a>
+            <a href="sub.html"><img src="img/ad_2col_banner3.png" alt="ad_banner3"></a>
+        </section>
+        <section id="ai_suggestion"></section>
+        <section id="best"></section>
+        <section id="popular">
+            <div class="top_tab">
+                <h2>사람들이 많이 찾고 있어요</h2>
+            </div>
+            <div class="popular_inner">
+                <ul class="popular_books">
+                    <li><a href="sub.html"><img src="img/today_1.jpg" alt="today_1"><span>title</span></a></li>
+                    <li><a href="sub.html"><img src="img/today_2.jpg" alt="today_2"><span>title</span></a></li>
+                    <li><a href="sub.html"><img src="img/today_3.jpg" alt="today_3"><span>title</span></a></li>
+                </ul>
+            </div>
+            <button class="btn_left"><img src="img/arrow_left_g.svg" alt="arrow_left"></button>
+            <button class="btn_right"><img src="img/arrow_right_g.svg" alt="arrow_right"></button>
+        </section>
+        <section id="possible_kyobo">
+            <div class="top_tab">
+                <h2>교보문고에서만 만날 수 있어요</h2>
+                <div class="tab_more">
+                    <a href=""><span>더보기</span><img src="img/more.svg" alt="more"></a>
+                </div>
+            </div>
+            <div class="possible_kyobo_inner">
+                <ul class="possible_kyobo_books">
+                    <li><a href="sub.html"><img src="img/today_1.jpg" alt="today_1"><span>title</span></a></li>
+                    <li><a href="sub.html"><img src="img/today_2.jpg" alt="today_2"><span>title</span></a></li>
+                    <li><a href="sub.html"><img src="img/today_3.jpg" alt="today_3"><span>title</span></a></li>
+                </ul>
+            </div>
+            <button class="btn_left"><img src="img/arrow_left_g.svg" alt="arrow_left"></button>
+            <button class="btn_right"><img src="img/arrow_right_g.svg" alt="arrow_right"></button>
+        </section>
+        <section class="ad_1col_banner">
+            <a href="sub.html"><img src="img/ad_1col_banner.png" alt="ad_banner"></a>
+        </section>
+        <section id="made_kyobo">
+            <div class="top_tab">
+                <h2>교보문고가 만들었어요</h2>
+                <div class="tab_more">
+                    <a href=""><span>더보기</span><img src="img/more.svg" alt="more"></a>
+                </div>
+            </div>
+            <div class="made_kyobo_inner">
+                <ul class="made_kyobo_books">
+                    <li><a href="sub.html"><img src="img/today_1.jpg" alt="today_1"><span>title</span></a></li>
+                    <li><a href="sub.html"><img src="img/today_2.jpg" alt="today_2"><span>title</span></a></li>
+                    <li><a href="sub.html"><img src="img/today_3.jpg" alt="today_3"><span>title</span></a></li>
+                </ul>
+            </div>
+            <button class="btn_left"><img src="img/arrow_left_g.svg" alt="arrow_left"></button>
+            <button class="btn_right"><img src="img/arrow_right_g.svg" alt="arrow_right"></button>
+        </section>
+        <section id="baropop">
+            <div class="top_tab">
+                <h2>바로출판POD</h2>
+                <div class="tab_more">
+                    <a href=""><span>더보기</span><img src="img/more.svg" alt="more"></a>
+                </div>
+            </div>
+            <div class="baropop_inner">
+                <ul class="baropop_books">
+                    <li><a href="sub.html"><img src="img/today_1.jpg" alt="today_1"><span>title</span></a></li>
+                    <li><a href="sub.html"><img src="img/today_2.jpg" alt="today_2"><span>title</span></a></li>
+                    <li><a href="sub.html"><img src="img/today_3.jpg" alt="today_3"><span>title</span></a></li>
+                </ul>
+            </div>
+            <button class="btn_left"><img src="img/arrow_left_g.svg" alt="arrow_left"></button>
+            <button class="btn_right"><img src="img/arrow_right_g.svg" alt="arrow_right"></button>
+        </section>
+        <section id="casting">
+            <div class="top_tab">
+                <h2>CASTing</h2>
+                <div class="tab_more">
+                    <a href=""><span>더보기</span><img src="img/more.svg" alt="more"></a>
+                </div>
+            </div>
+            <div class="casting_inner">
+                <ul class="casting_books">
+                    <li><a href="sub.html"><img src="img/today_1.jpg" alt="today_1"><span>title</span></a></li>
+                    <li><a href="sub.html"><img src="img/today_2.jpg" alt="today_2"><span>title</span></a></li>
+                    <li><a href="sub.html"><img src="img/today_3.jpg" alt="today_3"><span>title</span></a></li>
+                </ul>
+            </div>
+            <button class="btn_left"><img src="img/arrow_left_g.svg" alt="arrow_left"></button>
+            <button class="btn_right"><img src="img/arrow_right_g.svg" alt="arrow_right"></button>
+        </section>
+        <section id="event">
+            <div class="top_tab">
+                <div class="tab_left">
+                    <h2>MD들이 신중하게 골랐어요</h2>
+                    <ul class="tap_left_nav">
+                        <li><a href=""><span class="kyobo">교보문고</span></a></li>
+                        <li><a href=""><span>eBook</span></a></li>
+                        <li><a href=""><span>핫트랙스</span></a></li>
+                    </ul>
+                </div>
+                <div class="tab_more">
+                    <a href=""><span>더보기</span><img src="img/more.svg" alt="more"></a>
+                </div>
+            </div>
+            <div class="event_inner">
+                <a href="sub.html"><img src="img/col3_banner0.jpg" alt="ad_banner0"></a>
+                <a href="sub.html"><img src="img/col3_banner1.jpg" alt="ad_banner1"></a>
+                <a href="sub.html"><img src="img/col3_banner2.jpg" alt="ad_banner2"></a>
+            </div>
+            <button class="btn_left"><img src="img/arrow_left_g.svg" alt="arrow_left"></button>
+            <button class="btn_right"><img src="img/arrow_right_g.svg" alt="arrow_right"></button>
+        </section>
+    </main>
     <footer>
         <div class="supportBox">
             <div class="support">
