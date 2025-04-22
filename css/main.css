@@ -628,13 +628,13 @@ h2 {
   margin-top: 80px;
 }
 
-.event_inner {
+/* .event_inner {
   width: 1200px;
   height: 170px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-}
+} */
 .event_inner ul {
   width: 1200px;
   height: 170px;
