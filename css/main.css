@@ -166,16 +166,16 @@ h2 {
   margin: 0 40px 0 0;
 }
 .tap_left_nav {
-  width: 394px;
+  width: 420px;
   height: 26px;
   padding: 2px 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
   font-size: 14px;
   color: #767676;
 }
 .tap_left_nav span {
-  margin-left: 10px;
+  margin: 0 10px;
 }
 .tap_left_nav > li > a::before {
   content: "";
@@ -187,10 +187,6 @@ h2 {
 
 .tap_left_nav > li:first-child > a::before {
   display: none;
-}
-.ebook_today {
-  color: #474c98;
-  font-weight: 700;
 }
 .tab_more span {
   font-size: 14px;
@@ -320,17 +316,17 @@ h2 {
   display: flex;
   justify-content: space-between;
 }
-.hankang_books li {
+.hankang_inner li {
   width: 180px;
   height: 302;
   display: flex;
 }
-.hankang_books img {
+.hankang_inner img {
   width: 180px;
   height: 260px;
   border: 1px solid #ccc;
 }
-.hankang_books span {
+.hankang_inner span {
   font-weight: 500;
   color: #000;
 }
@@ -355,19 +351,19 @@ h2 {
   justify-content: space-between;
 }
 
-.suggestion_books li {
+.suggestion_inner li {
   width: 180px;
   height: 302;
   display: flex;
 }
 
-.suggestion_books img {
+.suggestion_inner img {
   width: 180px;
   height: 260px;
   border: 1px solid #ccc;
 }
 
-.suggestion_books span {
+.suggestion_inner span {
   font-weight: 500;
   color: #000;
 }
@@ -376,10 +372,6 @@ h2 {
   height: 378px;
   margin: 0 auto;
   margin-top: 80px;
-}
-.md_kyobo_only {
-  color: #474c98;
-  font-weight: 700;
 }
 
 .md_suggestion_inner {
@@ -390,26 +382,26 @@ h2 {
   justify-content: space-between;
 }
 
-.md_suggestion_books {
+.md_suggestion_inner ul {
   width: 1200px;
   height: 326px;
   display: flex;
   justify-content: space-between;
 }
 
-.md_suggestion_books li {
+.md_suggestion_inner li {
   width: 180px;
   height: 302;
   display: flex;
 }
 
-.md_suggestion_books img {
+.md_suggestion_inner img {
   width: 180px;
-  height: 180px;
+  height: 260px;
   border: 1px solid #ccc;
 }
 
-.md_suggestion_books span {
+.md_suggestion_inner span {
   font-weight: 500;
   color: #000;
 }
@@ -449,32 +441,32 @@ h2 {
   justify-content: space-between;
 }
 
-.popular_books li {
+.popular_inner li {
   width: 180px;
   height: 302;
   display: flex;
 }
 
-.popular_books img {
+.popular_inner img {
   width: 180px;
   height: 260px;
   border: 1px solid #ccc;
 }
 
-.popular_books span {
+.popular_inner span {
   font-weight: 500;
   color: #000;
 }
 #possible_kyobo {
   width: 1328px;
-  height: 300px;
+  height: 378px;
   margin: 0 auto;
   margin-top: 80px;
 }
 
 .possible_kyobo_inner {
   width: 1200px;
-  height: 246px;
+  height: 326px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -482,24 +474,24 @@ h2 {
 
 .possible_kyobo_books {
   width: 1200px;
-  height: 246px;
+  height: 326px;
   display: flex;
   justify-content: space-between;
 }
 
-.possible_kyobo_books li {
+.possible_kyobo_inner li {
   width: 180px;
-  height: 246px;
+  height: 302px;
   display: flex;
 }
 
-.possible_kyobo_books img {
+.possible_kyobo_inner img {
   width: 180px;
-  height: 180px;
+  height: 260px;
   border: 1px solid #ccc;
 }
 
-.possible_kyobo_books span {
+.possible_kyobo_inner span {
   font-weight: 500;
   color: #000;
 }
@@ -537,30 +529,30 @@ h2 {
   justify-content: space-between;
 }
 
-.made_kyobo_books li {
+.made_kyobo_inner li {
   width: 180px;
   height: 302px;
   display: flex;
 }
 
-.made_kyobo_books img {
+.made_kyobo_inner img {
   width: 180px;
   height: 260px;
   border: 1px solid #ccc;
 }
 
-.made_kyobo_books span {
+.made_kyobo_inner span {
   font-weight: 500;
   color: #000;
 }
-#baropop {
+#baropod {
   width: 1328px;
   height: 378px;
   margin: 0 auto;
   margin-top: 80px;
 }
 
-.baropop_inner {
+.baropod_inner {
   width: 1200px;
   height: 326px;
   margin: 0 auto;
@@ -568,26 +560,26 @@ h2 {
   justify-content: space-between;
 }
 
-.baropop_books {
+.baropod_books {
   width: 1200px;
   height: 326px;
   display: flex;
   justify-content: space-between;
 }
 
-.baropop_books li {
+.baropod_inner li {
   width: 180px;
   height: 302px;
   display: flex;
 }
 
-.baropop_books img {
+.baropod_inner img {
   width: 180px;
   height: 260px;
   border: 1px solid #ccc;
 }
 
-.baropop_books span {
+.baropod_inner span {
   font-weight: 500;
   color: #000;
 }
@@ -613,19 +605,19 @@ h2 {
   justify-content: space-between;
 }
 
-.casting_books li {
+.casting_inner li {
   width: 180px;
   height: 246px;
   display: flex;
 }
 
-.casting_books img {
+.casting_inner img {
   width: 180px;
   height: 180px;
   border: 1px solid #ccc;
 }
 
-.casting_books span {
+.casting_inner span {
   font-weight: 500;
   color: #000;
 }
@@ -637,6 +629,13 @@ h2 {
 }
 
 .event_inner {
+  width: 1200px;
+  height: 170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.event_inner ul {
   width: 1200px;
   height: 170px;
   margin: 0 auto;

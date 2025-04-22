@@ -1,0 +1,55 @@
+[
+  {
+    "topic1": [
+      {
+        "href": "sub.html",
+        "src": "img/col3_banner_kyobo0.jpg",
+        "alt": "banner1"
+      },
+      {
+        "href": "sub.html",
+        "src": "img/col3_banner_kyobo1.jpg",
+        "alt": "banner2"
+      },
+      {
+        "href": "sub.html",
+        "src": "img/col3_banner_kyobo2.jpg",
+        "alt": "banner3"
+      }
+    ],
+    "topic2": [
+      {
+        "href": "sub.html",
+        "src": "img/col3_banner_ebook0.jpg",
+        "alt": "banner4"
+      },
+      {
+        "href": "sub.html",
+        "src": "img/col3_banner_ebook1.jpg",
+        "alt": "banner5"
+      },
+      {
+        "href": "sub.html",
+        "src": "img/col3_banner_ebook2.png",
+        "alt": "banner6"
+      }
+    ],
+    "topic3": [
+      {
+        "href": "sub.html",
+        "src": "img/col3_banner_hottracks0.jpg",
+        "alt": "banner7"
+      },
+      {
+        "href": "sub.html",
+        "src": "img/col3_banner_hottracks1.jpg",
+        "alt": "banner8"
+      },
+      {
+        "href": "sub.html",
+        "src": "img/col3_banner_hottracks2.jpg",
+        "alt": "banner9"
+      }
+    ]
+  }
+]

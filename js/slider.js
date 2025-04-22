@@ -1,6 +1,6 @@
 $(function () {
   $.ajax({
-    url: "./json/slider.json",
+    url: "./json/casting.json",
     dataType: "json",
     success: function (data) {
       if (data.length > 0) {
