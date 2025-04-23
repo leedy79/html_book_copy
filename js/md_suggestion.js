@@ -71,7 +71,7 @@ $(function () {
     headers: { Authorization: "KakaoAK c000c8f0567b80693a5c45dd602124d2" },
     data: { query: "국내" },
   }).done(function (msg) {
-    $("#topic1 li").each(function (i) {
+    $("#md_suggestion #topic1 li").each(function (i) {
       let img = msg.documents[i].thumbnail;
       let title = msg.documents[i].title;
 
@@ -82,7 +82,7 @@ $(function () {
       }
 
       $(this).append(
-        `<a href="sub.html"><img src="${img}" alt="today_${i}"><span>${result}</span></a>`
+        `<a href="sub.html"><img src="${img}" alt="mdsuggestion_${i}"><span>${result}</span></a>`
       );
       $("img").on("error", function () {
         $(this).attr("src", "img/error.png");
@@ -97,7 +97,7 @@ $(function () {
     headers: { Authorization: "KakaoAK c000c8f0567b80693a5c45dd602124d2" },
     data: { query: "해외" },
   }).done(function (msg) {
-    $("#topic2 li").each(function (i) {
+    $("#md_suggestion #topic2 li").each(function (i) {
       let img = msg.documents[i].thumbnail;
       let title = msg.documents[i].title;
 
@@ -108,7 +108,7 @@ $(function () {
       }
 
       $(this).append(
-        `<a href="sub.html"><img src="${img}" alt="today_${i}"><span>${result}</span></a>`
+        `<a href="sub.html"><img src="${img}" alt="mdsuggestion_${i}"><span>${result}</span></a>`
       );
       $("img").on("error", function () {
         $(this).attr("src", "img/error.png");
@@ -123,7 +123,7 @@ $(function () {
     headers: { Authorization: "KakaoAK c000c8f0567b80693a5c45dd602124d2" },
     data: { query: "성공" },
   }).done(function (msg) {
-    $("#topic3 li").each(function (i) {
+    $("#md_suggestion #topic3 li").each(function (i) {
       let img = msg.documents[i].thumbnail;
       let title = msg.documents[i].title;
 
@@ -134,7 +134,7 @@ $(function () {
       }
 
       $(this).append(
-        `<a href="sub.html"><img src="${img}" alt="today_${i}"><span>${result}</span></a>`
+        `<a href="sub.html"><img src="${img}" alt="mdsuggestion_${i}"><span>${result}</span></a>`
       );
       $("img").on("error", function () {
         $(this).attr("src", "img/error.png");
@@ -148,7 +148,7 @@ $(function () {
     headers: { Authorization: "KakaoAK c000c8f0567b80693a5c45dd602124d2" },
     data: { query: "도전" },
   }).done(function (msg) {
-    $("#topic4 li").each(function (i) {
+    $("#md_suggestion #topic4 li").each(function (i) {
       let img = msg.documents[i].thumbnail;
       let title = msg.documents[i].title;
 
@@ -159,7 +159,7 @@ $(function () {
       }
 
       $(this).append(
-        `<a href="sub.html"><img src="${img}" alt="today_${i}"><span>${result}</span></a>`
+        `<a href="sub.html"><img src="${img}" alt="mdsuggestion_${i}"><span>${result}</span></a>`
       );
       $("img").on("error", function () {
         $(this).attr("src", "img/error.png");
@@ -173,7 +173,7 @@ $(function () {
     headers: { Authorization: "KakaoAK c000c8f0567b80693a5c45dd602124d2" },
     data: { query: "미래" },
   }).done(function (msg) {
-    $("#topic5 li").each(function (i) {
+    $("#md_suggestion #topic5 li").each(function (i) {
       let img = msg.documents[i].thumbnail;
       let title = msg.documents[i].title;
 
@@ -184,7 +184,7 @@ $(function () {
       }
 
       $(this).append(
-        `<a href="sub.html"><img src="${img}" alt="today_${i}"><span>${result}</span></a>`
+        `<a href="sub.html"><img src="${img}" alt="mdsuggestion_${i}"><span>${result}</span></a>`
       );
       $("img").on("error", function () {
         $(this).attr("src", "img/error.png");
@@ -198,7 +198,7 @@ $(function () {
     headers: { Authorization: "KakaoAK c000c8f0567b80693a5c45dd602124d2" },
     data: { query: "희망" },
   }).done(function (msg) {
-    $("#topic6 li").each(function (i) {
+    $("#md_suggestion #topic6 li").each(function (i) {
       let img = msg.documents[i].thumbnail;
       let title = msg.documents[i].title;
 
@@ -209,7 +209,7 @@ $(function () {
       }
 
       $(this).append(
-        `<a href="sub.html"><img src="${img}" alt="today_${i}"><span>${result}</span></a>`
+        `<a href="sub.html"><img src="${img}" alt="mdsuggestion_${i}"><span>${result}</span></a>`
       );
       $("img").on("error", function () {
         $(this).attr("src", "img/error.png");

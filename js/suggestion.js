@@ -18,7 +18,7 @@ $(function () {
       }
 
       $(this).append(
-        `<a href="sub.html"><img src="${img}" alt="today_${i}"><span>${result}</span></a>`
+        `<a href="sub.html"><img src="${img}" alt="suggetion_${i}"><span>${result}</span></a>`
       );
       $("img").on("error", function () {
         $(this).attr("src", "img/error.png");

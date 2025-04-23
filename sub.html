@@ -4,467 +4,579 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>[지금이야] 24K 순금 999.9 포나인 금테크 골드바 3.75g - 이마트몰</title>
+    <title>교보문고 | 대한민국 최고의 도서쇼핑몰</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/sub.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
+    <script src="js/1.js"></script>
+
+
 </head>
 
 <body>
     <header>
-        <div id="first_box">
-            <a href="#">
-                <img src="img/ssg_logo.png" alt="ssg_logo">
+        <!-- 상단 배너 -->
+        <div class="topBanner">
+            <a href="sub.html"><img src="img/topBanner.jpg" alt="topBanner"></a>
+        </div>
+        <!-- 관련 사이트 & 회원 서비스 -->
+        <div class="relSite_memberService">
+            <div class="relSite_memberService_wrap">
+                <div class="menuLeft">
+                    <img src="img/shape_0.png" alt="img/shape0">
+                    <ul class="relSite">
+                        <li class="relSite_ele"><a href="sub.html"><img src="img/shape_1.png"
+                                    alt="shape1"><span>교보문고</span></a></li>
+                        <li class="relSite_ele"><a href="sub.html"><img src="img/shape_2.png"
+                                    alt="shape2"><span>eBook</span></a></li>
+                        <li class="relSite_ele"><a href="sub.html"><img src="img/shape_3.png"
+                                    alt="shape3"><span>sam</span></a></li>
+                        <li class="relSite_ele"><a href="sub.html"><img src="img/shape_4.png"
+                                    alt="shape4"><span>핫트랙스</span></a></li>
+                        <li class="relSite_ele"><a href="sub.html"><img src="img/shape_5.png" alt="shape5"><span
+                                    class="history">스토리</span></a></li>
+                        <li><span class="brand_more">브랜드 더보기</span>
+                            <div class="more_sub">
+                                <ul>
+                                    <li><img src="img/more_pod.png" alt="more_pod"><span>바로출판</span></li>
+                                    <li><img src="img/more_readlog.png" alt="more_readlog"><span>리드로그</span></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menuRight">
+                    <ul class="memberService">
+                        <li><a href=""><span>회원가입</span></a></li>
+                        <li><a href=""><span>로그인</span></a></li>
+                        <li><a href=""><span class="member_benefit">회원혜택</span></a>
+                            <div class="member_benefit_sub">
+                                <ul>
+                                    <li><a href="">
+                                            <p>교보북클럽</p>
+                                        </a></li>
+                                    <li><a href="">
+                                            <p>등급 혜택</p>
+                                        </a></li>
+                                    <li><a href="">
+                                            <p>신규회원 혜택</p>
+                                        </a></li>
+                                    <li><a href="">
+                                            <p>Prestige Lounge</p>
+                                        </a></li>
+                                    <li><a href="">
+                                            <p>제휴 혜택</p>
+                                        </a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href=""><span>주문배송</span></a></li>
+                        <li><a href=""><span>매장안내</span></a></li>
+                        <li><a href=""><span>고객센터</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 로고 & 검색 & 마이페이지 & 장바구니 : Sticky -->
+        <div class="header_sticky">
+            <a class="main_logo" href="#">
+                <img src="/img/logo_book.svg" alt="main_logo">
             </a>
-            <ul>
-                <li class="addDivider"><a href="#">이마트몰</a></li>
-                <li class="addDivider"><a href="#">신세계몰</a></li>
-                <li><a href="#">신세계백화점</a></li>
-            </ul>
-            <div class="iconbox">
-                <img class="icon" src="img/search.webp" alt="1" />
-                <img class="icon" src="img/heart.webp" alt="2" />
-                <img class="icon" src="img/user.webp" alt="3" />
-                <img class="icon" src="img/cart.webp" alt="4" />
-                <img class="icon" src="img/headphone.webp" alt="5" />
+            <form id="search">
+                <div>
+                    <select class="search_select">
+                        <option value="total" selected="selected">통합검색</option>
+                        <option value="kyobo">교보문고</option>
+                        <option value="ebook">eBook</option>
+                        <option value="sam">sam</option>
+                        <option value="hot">핫트랙스</option>
+                    </select>
+                </div>
+                <div class="search_bar">
+                    <input type="text">
+                    <img src="img/search.png" alt="search">
+                </div>
+            </form>
+            <div class="mymenu">
+                <a class="header_cart" href="#">
+                    <img src="/img/cart.png" alt="cart">
+                </a>
+                <a class="header_mymenu" href="#">
+                    <img src="/img/my.png" alt="mymenu">
+                </a>
             </div>
         </div>
-
-        <div id="search">
-            <div class="search_box">
-                <div class="search_logo">
-                    <img src="img/logo.png" alt="logo" />
-                </div>
-                <form>
-                    <fieldset id="search">
-                        <input type="text" name="search" />
-                        <button type="submit" class="search_btn">
-                            <img src="img/search.webp" alt="" />
-                        </button>
-                    </fieldset>
-                </form>
-                <fieldset id="delivery">
-                    <div>
-                        <span>로그인 후 쓱-배송시간을 확인해보세요</span>
-                        <button>
-                            <img src="img/next.webp" alt="" />
-                        </button>
-                    </div>
-                </fieldset>
-            </div>
-        </div>
-        <nav>
-            <div id="catagory">
-                <div class="cata_btn">
-                    <img src="img/menu.png" alt="" />
-                    <p><a href="#">전체 카테고리</a></p>
-                </div>
-                <ul>
-                    <li><a href="#">자주구매</a></li>
-                    <li><a href="#">세일중</a></li>
-                    <li><a href="#">오반장</a></li>
-                    <li><a href="#">베스트</a></li>
-                    <li><a href="#">신상품</a></li>
-                    <li><a href="#">미식관</a></li>
-                    <li><a href="#">이벤트</a></li>
-
-                    <a href="#">
-                        <div class="brandStore">
-                            <p>브랜드관</p>
-                            <img src="img/next.webp" alt="down">
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="deliveryStore">
-                            <p>배송매장</p>
-                            <img src="img/next.webp" alt="down">
-                        </div>
-                    </a>
+        <!-- navi -->
+        <nav id="navi">
+            <div><img src="img/nav_open.png" alt="nav_open"></div>
+            <div class="nav_inner">
+                <ul class="nav_left">
+                    <li><a class="nav_special" href="sub.html">책의날특집<span></span></a></li>
+                    <li><a class="nav_special" href="sub.html">한강산문집<span></span></a></li>
+                    <li><a href="sub.html">베스트</a></li>
+                    <li><a href="sub.html">신상품</a></li>
+                    <li><a href="sub.html">이벤트</a></li>
+                    <li><a href="sub.html">바로펀딩</a></li>
+                    <li><a href="sub.html">PICKS</a></li>
+                    <li><a href="sub.html">CASTing</a></li>
+                    <li><a href="sub.html">컬처라운지</a></li>
+                </ul>
+                <button class="nav_more"><img src="img/more.png" alt=""></button>
+                <ul class="nav_right">
+                    <li><a href="">오늘의 미션</a></li>
+                    <li><a href="">할인혜택</a></li>
+                    <li><a class="noti_new_hankang" href="sub.html">한강 신작 알림</a></li>
                 </ul>
             </div>
         </nav>
     </header>
+    <!-- main -->
+    <main class="container_wrap">
+        <section class="breadcrumb_wrap">
+            <div class="breadcrumb_inner">
+                <ol class="breadcrumb_list">
+                    <li class="breadcrumb_item"><a href="#" class="home_link">HOME</a></li>
+                    <li class="breadcrumb_item"><a href="#" class="btn_sub_depth">국내도서</a></li>
+                    <li class="breadcrumb_item"><a href="#" class="btn_sub_depth">종교</a></li>
+                    <li class="breadcrumb_item"><a href="#" class="btn_sub_depth">가톨릭</a></li>
+                    <li class="breadcrumb_item"><a href="#" class="btn_sub_depth">가톨릭인물</a></li>
+                </ol>
+            </div>
+        </section>
+        <section id="content" class="contents_wrap">
+            <div class="header_contents_inner">
+                <div class="prod_detail_title_wrap">
+                    <div class="prod_title_area">
+                        <h1>희망</h1>
+                    </div>
+                    <div class="prod_title_desc_area">
+                        <p>프란치스코 교황 자서전</p>
+                    </div>
+                    <button class="share_btn"><span class="ico_share"></span></button>
+                </div>
+                <div class="prod_detail_view_wrap">
+                    <div class="prod_detail_type_area">
+                        <div class="prod_type_list_wrap">
+                            <ul class="prod_type_list">
+                                <li class="prod_type_item active"><a href=""></a><span
+                                        class="prod_type enable">국내도서</span><span
+                                        class="prod_price enable">30,600원</span>
+                                </li>
+                                <li class="prod_type_item"><a href=""></a><span class="prod_type">eBook</span><span
+                                        class="prod_price">21,420원</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="prod_detail_view_area">
+                        <div class="col_prod_info">
+                            <div class="author"><span>프란치스코 교황 , 카를로 무쏘 저자(글) · 이재협 , 김호열 , 이창욱 , 가비노 김 번역
+                                </span>
+                            </div>
+                            <div class="prod_info_text">
+                                <span>가톨릭출판사 · 2025년 03월 19일</span>
+                            </div>
+                            <div class="prod_best_box">
+                                <span class="text">주간베스트</span>
+                                <span>국내도서 75위 · 종교 1위</span>
+                            </div>
+                            <div class="prod_review_box">
+                                <div class="col_review">
+                                    <span class="review_score">9.9</span>
+                                    <span class="rating"></span>
+                                    <span class="text">(27개의 리뷰)</span>
+                                </div>
+                                <div class="col_review">
+                                    <span class="review_text">추천해요</span>
+                                    <span class="text">(46%의 구매자)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col_prod_info thumb">
+                            <div class="thumb_img">
+                                <img src="img/thumb_img.jpg" alt="thumb_img">
+                            </div>
+                            <div class="ctl_box">
+                                <img src="img/arrow_left_g.svg" alt="btn">
+                                <span>01 - 03</span>
+                                <img src="img/arrow_right_g.svg" alt="btn">
+                            </div>
+                            <div class="btn_wrap">
+                                <button type="button" class="btn_xs btn_pill btn_line_gray"><span
+                                        class="ico_preview"></span><span class="text">미리보기</span></button>
+                                <button type="button" class="btn_xs btn_pill btn_line_gray"><span
+                                        class="ico_ebook_preview"></span><span class="text">eBook 미리보기</span></button>
+                            </div>
+                        </div>
+                        <div class="col_prod_info">
+                            <div class="prod_price_wrap">
+                                <div class="badge_list_box">
+                                    <span class="badge_md badge_line_gray"><span class="text">무료배송</span></span>
+                                    <span class="badge_md badge_line_gray"><span class="text">사은품</span></span>
+                                    <span class="badge_md badge_line_gray"><span class="text">소득공제</span></span>
+                                </div>
+                                <div class="prod_price_box">
+                                    <div class="prod_price">
+                                        <span class="percent">10%</span>
+                                        <span class="price">
+                                            <span class="val">30,600<span class="unit">원</span></span>
+                                        </span>
+                                        <span class="sale_price">
+                                            <s class="val">34,000<span class="unit">원</span></s>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="prod_guide_wrap">
+                                <!-- 수정 230220 정가인하상품 가격표기 -->
+                                <!-- 정가인하 -->
 
-    <!-- sub-main -->
-    <div id="sub">
-        <div id="subMenu">
-            <ul>
-                <li><a href="#">HOME</a></li>
-                <li>
-                    <a href="#">
-                        <div class="dep1">
-                            <p>잡화/명품</p>
-                            <img src="img/next.webp" alt="down">
+                                <!-- //정가인하  -->
+                                <!-- //수정 230220 정가인하상품 가격표기 -->
+
+
+
+
+
+
+                                <div class="prod_guide_box">
+                                    <div class="prod_guide_row">
+                                        <div class="prod_guide_title">적립/혜택</div>
+                                        <div class="prod_guide_cont">
+                                            <div class="point_text">1,700P
+                                                <button type="button" class="btn_tooltip">
+                                                    <span class="ico_arw"></span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="prod_guide_box">
+
+                                    <div class="prod_guide_row">
+                                        <div class="prod_guide_title">배송안내</div>
+                                        <div class="prod_guide_cont">
+                                            <div class="delivery_guide_text">
+                                                <span id="OrderDeliveryType" class="delivery_type">무료배송</span>
+                                                <div class="tooltip_wrap type_sm right">
+                                                    <button type="button" class="btn_tooltip" data-btn-toggle="">
+                                                        <span class="ico_info"></span>
+                                                        <span class="hidden">툴팁열기</span>
+                                                    </button>
+                                                    <div class="tooltip_inner">
+                                                        <div class="tooltip_header">
+                                                            <div class="tooltip_head_title">배송비 안내</div>
+                                                        </div>
+                                                        <div class="tooltip_contents">
+                                                            <div class="tooltip_sub_title">국내도서/외국도서</div>
+                                                            <div class="tooltip_desc">
+                                                                도서 포함 15,000원 이상 구매 시 무료배송
+                                                                <br>도서+사은품 또는 도서+사은품+교보Only(교보굿즈)
+                                                            </div>
+                                                            <p class="bul_item_asterisk font_size_xxs">15,000원 미만 시
+                                                                2,500원 배송비 부과</p>
+
+                                                            <div class="tooltip_sub_title">교보Only(교보배송)</div>
+                                                            <div class="tooltip_desc">
+                                                                각각 구매하거나 함께 20,000원 이상 구매 시 무료배송
+                                                            </div>
+                                                            <p class="bul_item_asterisk font_size_xxs">20,000원 미만 시
+                                                                2,500원 배송비 부과</p>
+
+                                                            <div class="tooltip_sub_title">해외주문 서양도서/해외주문 일본도서(교보배송)
+                                                            </div>
+                                                            <div class="tooltip_desc">
+                                                                각각 구매하거나 함께 15,000원 이상 구매 시 무료배송
+                                                            </div>
+                                                            <p class="bul_item_asterisk font_size_xxs">15,000원 미만 시
+                                                                2,500원 배송비 부과</p>
+
+                                                            <div class="tooltip_sub_title">업체배송 상품(전집, GIFT, 음반/DVD 등)
+                                                            </div>
+                                                            <div class="tooltip_desc">
+                                                                해당 상품 상세페이지 "배송비" 참고 (업체 별/판매자 별 무료배송 기준 다름)
+                                                            </div>
+
+                                                            <div class="tooltip_sub_title">바로드림 오늘배송</div>
+                                                            <div class="tooltip_desc">
+                                                                업체에서 별도 배송하여 1Box당 배송비 2,500원 부과
+                                                            </div>
+                                                            <p class="bul_item_asterisk font_size_xxs">1Box 기준 : 도서 10권
+                                                            </p>
+
+                                                            <div class="tooltip_sub_title">그 외 무료배송 기준</div>
+                                                            <div class="tooltip_desc">
+                                                                바로드림, eBook 상품을 주문한 경우, 플래티넘/골드/실버회원 무료배송쿠폰 이용하여 주문한 경우,
+                                                                무료배송 등록 상품을 주문한 경우
+                                                            </div>
+
+                                                        </div>
+                                                        <button type="button" class="btn_tooltip_close"><span
+                                                                class="hidden">툴팁닫기</span></button>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="prod_guide_row">
+
+
+
+                                        <div class="prod_guide_cont">
+                                            <div class="delivery_guide_text"><span
+                                                    class="badge_sm badge_pill badge_primary"><span
+                                                        class="text">새벽배송</span></span>
+
+                                                <span id="OrderEstimatedDate"><span><strong class="blue">내일(4/24,목 오전 7시
+                                                            전) 도착</strong></span></span>
+
+
+                                                <button type="button" class="btn_info_popup" data-role="btn-dialog"
+                                                    data-target="#popDeliveryInfo">
+                                                    <span class="ico_question"></span>
+                                                    <span class="hidden">팝업 열기</span>
+                                                </button>
+
+
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+
+
+
+
+
+                                    <div class="prod_guide_row">
+                                        <div class="prod_guide_cont">
+                                            <div class="delivery_guide_text">
+                                                <span class="fc_gray">기본배송지 기준</span>
+                                                <div class="tooltip_wrap type_sm right">
+                                                    <button type="button" class="btn_tooltip"><span
+                                                            class="ico_info"></span><span
+                                                            class="hidden">툴팁열기</span></button>
+                                                    <div class="tooltip_inner">
+                                                        <div class="tooltip_header">
+                                                            <div class="tooltip_head_title">배송일자 기준 안내</div>
+                                                        </div>
+                                                        <div class="tooltip_contents">
+                                                            <div class="tooltip_desc">
+                                                                로그인 : 회원정보에 등록된 기본배송지<br>
+                                                                로그아웃 : '서울시 종로구 종로1' 주소 기준
+                                                            </div>
+                                                        </div>
+                                                        <button type="button" class="btn_tooltip_close"><span
+                                                                class="hidden">툴팁닫기</span></button>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+
+
+
+
+
+
+
+                                    <div class="prod_guide_row nonmember">
+                                        <div class="prod_guide_cont">
+                                            <div class="prod_info_text">
+                                                <a href="javascript:void(0)" id="loginButton"
+                                                    class="point_text btn_text_link"><span class="text">로그인</span></a> 후
+                                                <strong>정확한 배송 안내</strong>를 받아보세요!
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+                                    <div class="prod_guide_row">
+                                        <div class="prod_guide_cont">
+                                            <div class="info_text_box size_sm">
+                                                <span class="flower_info_flex">
+                                                    <p class="info_text fw_regular font_size_xxs">이달의 꽃과 함께 책을 받아보세요!
+                                                    </p>
+                                                    <button type="button" class="btn_xxs btn_line_gray"
+                                                        onclick="window.location.href='https://event.kyobobook.co.kr/detail/208794'">
+                                                        <span class="text fw_medium">자세히 보기</span>
+                                                        <span class="ico_arw"></span>
+                                                    </button>
+                                                </span>
+                                                <p class="bul_item_dot font_size_min">1권 구매 시 결제 단계에서 적용 가능합니다.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            </div>
+
+
+
+                            <div class="alarm_apply_box" style="">
+                                <p class="prod_alarm_text">알림 신청하시면 원하시는 정보를<br>받아 보실 수 있습니다.</p>
+                                <div class="right_area">
+
+                                    <button type="button" class="btn_xs btn_line_primary"><span
+                                            class="ico_alarm"></span><span class="text">알림신청</span></button>
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+
+
+                            <div class="btn_wrap justify overlap">
+
+
+                                <button type="button" class="btn_sm btn_line_gray" data-role="btn-dialog"
+                                    data-target="#popStock"><span class="ico_locate"></span><span class="text">매장
+                                        재고·위치</span></button>
+                            </div>
+
+
+
+
+
                         </div>
-                    </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div id="footer_notice">
+            <ul class="notice_inner">
+                <li class="notice">
+                    <span>공지사항</span>
+                    <a href="sub.html"><span>컬쳐랜드 시스템 점검 안내(4/24)</span></a>
+                    <div class="tab_more">
+                        <a href="sub.html"><span>더보기</span><img src="img/more.svg" alt="more"></a>
+                    </div>
                 </li>
-                <li>
-                    <a href="#">
-                        <div class="dep2">
-                            <p>시계/주얼리</p>
-                            <img src="img/next.webp" alt="down">
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <div class="dep3">
-                            <p>순금/골드바</p>
-                            <img src="img/next.webp" alt="down">
-                        </div>
-                    </a>
+                <span>|</span>
+                <li class="lucky">
+                    <span>당첨자발표</span>
+                    <a href="sub.html"><span>[공통]한강 신작 산문집 『빛과 실』 알림 신청 이벤트 당첨자 발표</span></a>
+                    <div class="tab_more">
+                        <a href="sub.html"><span>더보기</span><img src="img/more.svg" alt="more"></a>
+                    </div>
                 </li>
             </ul>
         </div>
-        <div id="contents">
-            <div id="buyInfo">
-                <div class="main_img_box">
-                    <div id="product">
-                        <img class="mainImg" src="img/product-1.avif" alt="gold_1">
-                        <div class="subImgBox">
-                            <img class="subImg" src="img/product-1.avif" alt="gold_2">
-                            <img class="subImg" src="img/product-2.avif" alt="gold_3">
-                        </div>
-                        <div class="brandStore_box">
-                            <div class="info_box">
-                                <p class="brand_name">benegold 판매자스토어 ></p>
-                                <p class="store_badge">SUPER STAR 등급</p>
-                                <p class="store_disc">시계/쥬얼리 주간 매출 상위 1% 스토어</p>
-                            </div>
-                            <button><img src="img/heart-1.webp" alt="heart">좋아요</button>
-                        </div>
-                        <img class="ad_banner" src="img/ad_banner.avif" alt="ad_banner"></img>
-                    </div>
-                </div>
-                <div id="context">
-                    <!-- <div class="line1">
-                        <div>
-                            <span class="obanjang">오반장</span>
-                        </div>
-                        <div>
-                            <span class="buyCnt">4200개 구매중
-                                <img src="img/info.webp" alt="info">
-                            </span>
-                        </div>
-                    </div> -->
-                    <h2 class="h2">
-                        <div class="store">
-                            <span>지금이야<img class="arrow_ilnk" src="img/right.webp" alt="right"></span>
-                            <p>[지금이야] 24K 순금 999.9 포나인 금테크 골드바 3.75g</p>
-                        </div>
-                        <img class="share_ilnk" src="img/share.webp" alt="share">
-                    </h2>
-                    <div class="line4">
-                        <span class="rating">★★★★★ 4.8</span>
-                        <span class="text">(739,096건)</span>
-                    </div>
-                    <!-- <div class="line5">
-                        <span>원산지 : 상세설명 참조</span>
-                    </div> -->
-                    <div class="price">
-                        <span class="curruntPrice">654,674 원</span>
-                        <span class="saleInfo">할인내역<img src="img/next.webp" alt=""></span>
-                        <span class="highPrice">최고판매가 801,200원</span>
-                    </div>
-                    <div class="purchase_info">
-                        <ul class="card_benefit">
-                            <p class="info_title">무이자</p>
-                            <li>카드사별 무이자 혜택<img class="arrowDown" src="img/arrow-down.webp" alt="down"></li>                        
-                        </ul>
-                        <div class="point">
-                            <img src="img/point.webp" alt="point">
-                        </div>
-                        <ul class="purchase_benefit">
-                            <p class="info_title">구매혜택</p>
-                            <span class="ssg_money">SSG MONEY</span>
-                            <li>6% 적립 또는 6% 즉시할인</li>
-                            <li>2025.04.04 ~ 2025.04.13</li>
-                        </ul>
-                        <ul class="delivery_info">
-                            <p class="info_title">배송정보</p>                            
-                            <li>택배배송</li>
-                            <li>10일 이내 도착 예정 (토/일 공휴일 제외)</li>
-                            <li>주문제작 상품</li>
-                        </ul>
-                        <ul class="delivery_price">
-                            <p class="info_title">배송비</p>                            
-                            <li>무료</li>
-                            <li>개당 제주 3,000원, 도서산간 7,000원 추가</li>
-                        </ul>
-                    </div>
-                    <!-- <div class="pSelect">
-                        <img class="product" src="img/product-1.avif" alt="product">
-                        <span>구매하실 상품을 선택하세요</span>
-                        <img class="arrowDown" src="img/arrow-down.webp" alt="down">
-                    </div> -->
-                    <div class="orderSectionBox">
-                        <p>[지금이야] 24K 순금 999.9 포나인 금테크 골드바 3.75g</p>
-                        <div class="orderSection">
-                            <div class="orderCounter">
-                                <button class="cntBox" type="button">-</button>
-                                <input type="number" name="orderCnt" value="1" min="1">
-                                <button class="cntBox" type="button">+</button>
-                            </div>
-                            <span class="orderPrice">654,674원</span>
-                        </div>
-                    </div>
-                    <div class="buyPriceBox">
-                        <div class="buyPrice">
-                            <span class="total">합계</span>
-                            <span class="won">654,674 원</span>
-                        </div>                        
-                    </div>
-                    <div class="notice">
-                        <ul class="caution">
-                            <p class="info_title">유의사항</p>
-                            <li>주문 제작 되는 상품으로 교환/반품이 어려울 수 있습니다.</li>
-                            <li>상품상세정보를 반드시 확인해 주세요.</li>
-                        </ul>
-                        <ul class="bulk_purchase">
-                            <p class="info_title">대량구매</p>
-                            <li>한번에 여러명에게 보내보세요.</li>
-                            <li class="click">대량구매하기 ></li>
-                        </ul>
-                        <ul class="payment_info">
-                            <p class="info_title">결제안내</p>
-                            <li>일부 결제수단이 제한된 상품입니다. 양해 부탁드립니다.</li>
-                        </ul>
-                    </div>
-                    <ul class="btns">
-                        <li class="heart">
-                            <img src="img/heart-1.webp" alt="heart">
-                        </li>
-                        <li class="gift">
-                            <img src="img/gift.webp" alt="gift">
-                            <span>선물</span>
-                        </li>
-                        <li class="cart">
-                            <span>장바구니</span>
-                        </li>
-                        <li class="buyNow">
-                            <span>바로구매</span>
+        <div class="footer_main">
+            <div class="footer_inner">
+                <div class="inner_left">
+                    <a href="#"><img src="img/logo_book_s.svg" alt="logo_book_s"></a>
+                    <ul class="company">
+                        <li><a href="sub.html">회사소개</a></li>
+                        <li><a href="sub.html">이용약관</a></li>
+                        <li><a href="sub.html">개인정보처리방침</a></li>
+                        <li><a href="sub.html">청소년 보호방침</a></li>
+                        <li><a href="sub.html">대량주문안내</a></li>
+                        <li><a href="sub.html">협력사여러분</a></li>
+                        <li><a href="sub.html">채용정보</a></li>
+                        <li><a href="sub.html">광고소개</a></li>
+                    </ul>
+                    <ul class="info">
+                        <li><span>대표이사 : 허정도</span></li>
+                        <li><span>서울특별시 종로구 종로1</span></li>
+                        <li><span>사업자등록번호 : 102-81-11670</span></li>
+                        <li><span class="contact">대표전화 : 1544-1900(발신자 부담전화)</span></li>
+                        <li><span>FAX : 0502-987-5711(지역번호 공통)</span></li>
+                        <li><span>서울특별시 통신판매업신고번호 : 제 653호</span>
+                            <button>사업자정보확인</button>
                         </li>
                     </ul>
+                    <span class="copywright">© KYOBO BOOK CENTRE</span>
                 </div>
-            </div>
-            <div id="adProduct">
-                <div class="title">
-                    <h2>다른 고객들이 많이 본 상품</h2>
-                </div>
-                <div class="box">
-                    <div class="img_box">
-                        <a href="#">
-                            <img src="img/adproduct-1.avif" alt="product_img" /></a>
-                    </div>
-                    <p class="disc"><a href="#">24K 순금 하프 트위스트 바 체인 금 목걸이 37.50g + 18K장식</a></p>
-                    <p class="price">8,767,296 원</p>
-                    <p class="rating">★4.8(65,263)</p>
-                </div>
-                <div class="box">
-                    <div class="img_box">
-                        <a href="#">
-                            <img src="img/adproduct-2.avif" alt="product_img" /></a>
-                    </div>
-                    <p class="disc"><a href="#">[Byeolirang]24k순금반지 11.25g(HJ24k0010)</a></p>
-                    <p class="price">2,053,440 원</p>
-                    <p class="rating">★4.8(65,263)</p>
-                </div>
-                <div class="box">
-                    <div class="img_box">
-                        <a href="#">
-                            <img src="img/adproduct-3.avif" alt="product_img" /></a>
-                    </div>
-                    <p class="disc"><a href="#">[도로시] 24k 순금 비휴 오닉스 팔찌 11.25g</a></p>
-                    <p class="price">2,548,766 원</p>
-                    <p class="rating">★4.8(65,263)</p>
-                </div>
-                <div class="box">
-                    <div class="img_box">
-                        <a href="#">
-                            <img src="img/adproduct-4.avif" alt="product_img" /></a>
-                    </div>
-                    <p class="disc"><a href="#">[도로시] 24k 순금 비휴 오닉스 팔찌 7.5g</a></p>
-                    <p class="price">1,726,051 원</p>
-                    <p class="rating">★4.8(65,263)</p>
-                </div>
-                <div class="box">
-                    <div class="img_box">
-                        <a href="#">
-                            <img src="img/adproduct-5.avif" alt="product_img" /></a>
-                    </div>
-                    <p class="disc"><a href="#">[Byeolirang]24k 순금 99.9%반지 3.75g 3종 택1</a></p>
-                    <p class="price">687,456 원</p>
-                    <p class="rating">★4.8(65,263)</p>
-                </div>
-            </div>
-            <div id="productInfo">
-                <div id="leftBox">
-                    <div class="tabBar">
-                        <ul class="tab">
-                            <li class="menuItem itemFirst">상품상세정보</li>
-                            <li class="menuItem">고객리뷰(277)</li>
-                            <li class="menuItem">상품Q&A(209)</li>
-                            <li class="menuItem">추천상품</li>
-                            <li class="menuItem">배송/반품/교환 안내</li>
-                        </ul>
-                    </div>
-                    <div class="productNum">
-                        <p>상품번호 : 1000618242195</p>
-                    </div>
-                    <div id="productDetail">
-                        <img src="img/product_detail_1.jpg" alt="product_detail">
-                    </div>
-                    <button>상세정보 접기 ▲</button>
-                    <h4>상품필수정보</h4>
-                    <table class="required_info">             
-                        <tr>
-                            <th>소재/순도/밴드재질</th>
-                            <td>상세페이지 참조</td>
-                        </tr>
-                        <tr>
-                            <th>중량</th>
-                            <td>상세페이지 참조</td>
-                        </tr>
-                        <tr>
-                            <th>치수</th>
-                            <td>상세페이지 참조</td>
-                        </tr>
-                        <tr>
-                            <th>착용 시,주의사항</th>
-                            <td>상세페이지 참조</td>
-                        </tr>
-                        <tr>
-                            <th>제품주요사항</th>
-                            <td>상세페이지 참조</td>
-                        </tr>
-                        <tr>
-                            <th>보증서 제공여부</th>
-                            <td>상세페이지 참조</td>
-                        </tr>
-                        <tr>
-                            <th>품질보증기준</th>
-                            <td>관련 법 및 소비자 분쟁해결 규정에 따름</td>
-                        </tr>
-                        <tr>
-                            <th>A/S책임자 및 전화번호</th>
-                            <td>(고객센터) 상세페이지 참조</td>
-                        </tr>
-                        <tr>
-                            <th>제조자/수입자</th>
-                            <td>(주)지금이야/해당사항 없음</td>
-                        </tr>
-                        <tr>
-                            <th>제조국</th>
-                            <td>한국</td>
-                        </tr>                
-                    </table>
-                    <table class="exchange_info">
-                        <tr>
-                            <th>교환/반품 주소</th>
-                            <td>(03134) 서울특별시 종로구 봉익동 12-13 곡천빌딩 1층 조은인테리어진열장</td>
-                        </tr>
-                    </table>
-                    <div class="report">
-                        <span>상품 정보에 문제가 있나요?</span>
-                        <span class="contact">신고하기 ></span>
-                    </div>
-                    <h4>고객리뷰(290건)</h4>
-                    <div class="review_rating">
-                        <p>4.9</p>
-                        <span>총 290건 리뷰</span>
-                    </div>
-                    <p class="review_desc">※ 리뷰 등록, 수정, 삭제 및 상세 내용은 [MY SSG > 나의 활동관리 > 상품 리뷰]에서 확인하실 수 있습니다.</p>
- 
-                </div>
-                <div id="aside">
-                    <div class="boxTop">
-                        <div class="orderSectionBox">
-                            <p>[지금이야] 24K 순금 999.9 포나인 금테크 골드바 3.75g</p>
-                            <div class="orderSection">
-                                <div class="orderCounter">
-                                    <button class="cntBox" type="button">-</button>
-                                    <input type="number" name="orderCnt" value="1" min="1">
-                                    <button class="cntBox" type="button">+</button>
-                                </div>
-                                <span class="orderPrice">654,674원</span>
-                            </div>
+                <div class="inner_right">
+                    <div class="line_1">
+                        <div class="family_site">
+                            <select>
+                                <option>교보생명</option>
+                                <option>교보증권</option>
+                                <option>교보DTS</option>
+                                <option>교보리얼코</option>
+                                <option>교보악사자산운용</option>
+                                <option>교보라이프플래닛생명</option>
+                                <option>KCA 손해사정</option>
+                                <option>KCA 서비스</option>
+                                <option>교보자산신탁주식회사</option>
+                                <option>대산문화재단</option>
+                                <option>교보교육재단</option>
+                                <option>대산농촌재단</option>
+                            </select>
+                        </div>
+                        <div class="sns">
+                            <a href="#"><img src="img/btn_footer_sns_youtube_v2@2x.png" alt="youtube"></a>
+                            <a href="#"><img src="img/btn_footer_sns_fb_v2@2x.png" alt="facebook"></a>
+                            <a href="#"><img src="img/btn_footer_sns_insta_v2@2x.png" alt="insta"></a>
                         </div>
                     </div>
-                    <div class="boxBottom">
-                        <div class="totalPriceBox">
-                            <div class="totalPrice">
-                                <span class="total">합계</span>
-                                <span class="won">654,674 원</span>
-                            </div>
+                    <div class="line_2">
+                        <div class="tosspay">
+                            <span>토스페이먼츠 구매안전서비스</span>
+                            <button>서비스가입확인</button>
                         </div>
-                        <div>
-                            <ul>
-                                <li class="btnLine1">
-                                    <img src="img/heart-1.webp" alt="heart">
-                                    <span class="cart">장바구니</span>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li class="btnLine2">
-                                    <img src="img/gift.webp" alt="gift">
-                                    <span>선물하기</span>
-                                </li>
-                                <li><span class="buyNow">바로구매</span></li>
-                            </ul>
+                    </div>
+                    <p>고객님은 안전거래를 위해 현금 등으로 결제시 저희 쇼핑몰에서 가입한<br>토스페이먼츠의 구매안전서비스를 이용하실 수 있습니다.</p>
+                    <div class="line_3">
+                        <div class="isms">
+                            <a href="#"></a><img src="img/footer_img_isms.png" alt="">
+                            <p>정보보호관리체계<br>ISMS 인증획득</p>
+                        </div>
+                        <div class="isms_desc">
+                            <p class="fz-12 text-gray-700">[인증범위] 인터넷 교보문고 및 브랜드 서비스 운영<br>[유효기간] 2023.11.15 ~
+                                2026.11.14</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <footer>
-            <div class="supportBox">
-                <div class="support">
-                    <ul>
-                        <li>회사소개</li>
-                        <li class="divider">|</li>
-                        <li>개인정보처리방침</li>
-                        <li class="divider">|</li>
-                        <li>이용약관</li>
-                        <li class="divider">|</li>
-                        <li>청소년 보호방침</li>
-                        <li class="divider">|</li>
-                        <li>지식재산권센터</li>
-                        <li class="divider">|</li>
-                        <li>입점상담</li>
-                        <li class="divider">|</li>
-                        <li>이마트점포 입점상담</li>
-                        <li class="divider">|</li>
-                        <li>광고신청</li>
-                    </ul>
-                    <select>
-                        <option>신세계그룹</option>
-                        <option>신세계포인트</option>
-                        <option>신세계백화점</option>
-                        <option>이마트</option>
-                        <option>이마트 트레이더스</option>
-                        <option>이마트 에브리데이</option>
-                        <option>이마트24</option>
-                        <option>신세계TV 쇼핑</option>
-                        <option>프리미엄 아웃렛</option>
-                        <option>스타필드</option>
-                    </select>
-                </div>
-            </div>
-            <div class="footer_box">
-                <span>(주) 에스에스지닷컴</span>
-                <div>
-                    <img src="img/headphone.webp" alt="">
-                    <span class="contact">1577-3419</span>
-                    <button type="submit">전화문의 전 클릭</button>
-                    <button type="submit">1:1 고객센터톡</button>
-                    <span>고객센터/전자금융거래분쟁처리</span>
-                    <p>대표자: 최훈학 서울특별시 영등포구 영신로34길 30 사업자등록번호: 870-88-01143 통신판매업 신고번호: 제2025-서울영등포-0509호</p>
-                    <p>개인정보보호책임자: 김우진 Fax: 02-2068-7118 ssg@ssg.com</p>
-                    <button type="submit">사업자 정보확인</button>
-                    <button type="submit">소비자 분쟁해결 기준</button>
-                </div>
-            </div>
-        </footer>
+    </footer>
 </body>
 
 </html>
